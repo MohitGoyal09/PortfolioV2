@@ -39,20 +39,20 @@ const GitHubContributions: React.FC<GitHubContributionsProps> = ({
   return (
     <div className={`relative overflow-hidden rounded-xl ${className}`}>
       <motion.div
-        className="w-full overflow-hidden rounded-xl bg-transparent backdrop-blur-none border-0 hover:shadow-sm transition-shadow duration-300"
+        className="w-full overflow-hidden rounded-xl bg-transparent backdrop-blur-none border-0 hover:shadow-sm transition-shadow duration-300 [image-rendering:crisp-edges]"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
         <div
-          className={`${compact ? 'p-2' : 'p-3'} hover:scale-[1.005] transition-transform duration-300`}
+          className={`${compact ? 'p-2' : 'p-3'} hover:scale-[1.005] transition-transform duration-300 [image-rendering:crisp-edges]`}
         >
           <GitHubCalendar
             username={username}
             colorScheme={resolvedTheme as 'light' | 'dark'}
-            fontSize={compact ? 10 : 12}
-            blockSize={compact ? 10 : 12}
-            blockMargin={compact ? 2 : 4}
+            fontSize={compact ? 12 : 14}
+            blockSize={compact ? 14 : 16}
+            blockMargin={compact ? 3 : 4}
             showWeekdayLabels={!compact}
             theme={theme}
           />
