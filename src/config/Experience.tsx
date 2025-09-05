@@ -8,7 +8,7 @@ import Langchain from '@/components/technologies/Langchain';
 import NextJs from '@/components/technologies/NextJs';
 import NodeJs from '@/components/technologies/NodeJs';
 import Pytorch from '@/components/technologies/Pytorch';
-import Vercel from '@/components/technologies/Vercel';
+
 
 
 

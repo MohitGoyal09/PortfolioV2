@@ -1,7 +1,7 @@
 import { LiveKit } from '@lobehub/icons';
 import React from 'react';
 
-export default function Livekit({ className }: { className?: string }) {
+export default function Livekit() {
   return (
     <>
       <div

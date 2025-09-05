@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Pytorch({ className }: { className?: string }) {
+export default function Pytorch() {
   return (
     <>
     <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0.6 1067.9 90.3 109.1" enableBackground="new 0.6 1067.9 90.3 109.1" xmlSpace="preserve">

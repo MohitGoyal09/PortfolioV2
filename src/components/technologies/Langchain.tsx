@@ -1,7 +1,7 @@
 import { LangChain } from '@lobehub/icons';
 import React from 'react';
 
-export default function Langchain({ className }: { className?: string }) {
+export default function Langchain() {
   return (
     <>
       <div

@@ -1,7 +1,7 @@
 import { CrewAI } from '@lobehub/icons';
 import React from 'react';
 
-export default function Crewai({ className }: { className?: string }) {
+export default function Crewai() {
   return (
     <>
       <div

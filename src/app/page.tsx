@@ -5,7 +5,6 @@ import Experience from '@/components/landing/Experience';
 import GitHubStats from '@/components/landing/GitHubStats';
 import Hero from '@/components/landing/Hero';
 import Work from '@/components/landing/Projects';
-import Setup from '@/components/landing/Setup';
 import React from 'react';
 
 export default function page() {

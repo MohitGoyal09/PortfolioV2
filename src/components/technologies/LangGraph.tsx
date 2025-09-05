@@ -1,7 +1,7 @@
 import { LangGraph } from '@lobehub/icons';
 import React from 'react';
 
-export default function Langgraph({ className }: { className?: string }) {
+export default function Langgraph() {
   return (
     <>
       <div
